@@ -1,0 +1,237 @@
+@import "@fontsource/mulish";
+/* Background styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  background: linear-gradient(to right, #1e90ff, #20b2aa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for login */
+.login-container {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 130vh;
+}
+
+/* Login Box Wrapper */
+.login-box {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Left section */
+.login-left {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+  backdrop-filter: blur(20px);
+}
+
+/* Right section */
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color:#aaa8a8;
+}
+
+/* Title */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #899889;
+}
+
+/* Input field */
+input {
+  width: 100%;
+  height: 10;
+  max-width: 300px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  outline: none;
+  box-shadow: inset 2px 2px 5px rgba(103, 99, 99, 0.3);
+}
+
+input::placeholder {
+  color: #898989;
+  text-align: left;
+}
+
+/* Button styling */
+.btn {
+  background: linear-gradient(to bottom, #063a06, #3b9c3b);
+  color: white;
+  width: 25vh;
+  height: 7vh;
+  border: none;
+  margin-top: 10%;
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+/* Full Page Container */
+.otp-container {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 150vh;
+}
+
+/* Header Title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  background: linear-gradient(145deg, #0e7c6b, #394753);
+}
+
+/* OTP Box Wrapper */
+.otp-box {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Left Section - OTP Input */
+.otp-left {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+  backdrop-filter: blur(20px);
+}
+
+.otp-left h2 {
+  font-size: 18px;
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Mulish", sans-serif;
+}
+
+/* OTP Input Field */
+.otp-left input {
+  width: 100%;
+  max-width: 350px;
+  margin-left: 5%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  outline: none;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.otp-left input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  
+}
+
+/* Resend OTP Section */
+.resend-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 14px;
+}
+
+.resend-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+.resend-btn:disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+
+.resend-container span {
+  font-size: 14px;
+  margin-top: 0%;
+  margin-left: 40%;
+  margin-right: 5%;
+}
+
+/* Validate Button */
+.validate-btn {
+  /* background: linear-gradient(to bottom, #19a519, #005700); */
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+
+
+/* Right Section - Info Text */
+.otp-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  /* font-weight: bold; */
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  color:#aaa8a8;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
